@@ -1,0 +1,32 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = false
+
+[dev-packages]
+var-dump = "*"
+csv-deta = "*"
+mypy = "*"
+blank = "*"
+uvicorn = "*"
+
+[packages]
+# from telebot import TeleBot
+pytelegrambotapi = "*"
+strictyaml = "*"
+environs = "*"
+pydantic = "*"
+loguru = "*"
+deta = "*"
+odetam = "*"
+fastapi = "*"
+# for fastapi
+aiohttp = "*"
+
+[requires]
+
+[scripts]
+req = "pipenv requirements > requirements.txt"
+freeze = "pip freeze | tee requirements.txt"
+prep = "pipenv lock -r -d > req-all.txt"
+preprod = "pipenv lock -r > req-prod.txt"
