@@ -19,7 +19,7 @@ def main():
         process_updates()
 
     else:
-        log.info("debug NO")
+        log.info("dev NO")
         # uvicorn.run(app, host="0.0.0.0")
         # uvicorn.run(app, port=443, host="0.0.0.0")
 
