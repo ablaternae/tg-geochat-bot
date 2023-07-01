@@ -552,3 +552,4 @@ tmtags
 # End of https://www.toptal.com/developers/gitignore/api/pydev,eclipse,textmate,netbeans,sublimetext,visualstudiocode,pycharm+all,python,dotenv,backup
 
 .space
+Spacefile

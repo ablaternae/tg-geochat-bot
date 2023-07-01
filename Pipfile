@@ -22,6 +22,11 @@ odetam = "*"
 fastapi = "*"
 # for fastapi
 aiohttp = "*"
+asyncio = "*"
+peewee = "*"
+peewee_async = "*"
+#async_sqlite = "*"
+sql-deta = "*"
 
 [requires]
 
